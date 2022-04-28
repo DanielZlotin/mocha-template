@@ -1,0 +1,27 @@
+{
+  "name": "mocha-template",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielZlotin/mocha-template.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "4.x",
+    "@types/mocha": "9.x",
+    "chai": "4.x",
+    "mocha": "9.x",
+    "prettier": "2.x",
+    "typescript": "4.x"
+  },
+  "scripts": {
+    "prettier": "prettier --write .'",
+    "test": ""
+  },
+  "prettier": {
+    "printWidth": 180
+  }
+}
